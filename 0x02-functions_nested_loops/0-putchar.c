@@ -1,4 +1,4 @@
-#include "school.h"	
+#include "main.h"	
 
 	
 
@@ -16,17 +16,17 @@
 
 		{
 
-				char school[9] = {'s', 'c', 'h', 'o', 'o', 'l'};
+				char main[9] = {'m', 'a', 'i', 'n'};
 
 					unsigned int c;
 
 						
 
-						for (c = 0; c < sizeof(school); c++)
+						for (c = 0; c < sizeof(main); c++)
 
 								{
 
-										_putchar(school[c]);
+										_putchar(main[c]);
 
 											}
 
